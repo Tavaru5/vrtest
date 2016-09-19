@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres_user",
+    "password": "pgp4takeout",
+    "database": "takeout",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres_user",
+    "password": "pgp4takeout",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres_user",
+    "password": "pgp4takeout",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
